@@ -1,6 +1,7 @@
 name: Build PHP
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
     paths:
